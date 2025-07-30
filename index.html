@@ -1,102 +1,31 @@
-<style>
-  body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: #0e0d11;
-    padding: 40px;
-    text-align: center;
-  }
+<head>
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./script.js"></script>
+</head>
 
-  h1 {
-    color: #f8f8f2;
-    font-size: 36px;
-    margin-bottom: 20px;
-  }
-
-  .map {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-    gap: 20px;
-    margin-top: 40px;
-  }
-
-  .project {
-    max-height: 80%;
-    max-width: 80%;
-
-    display: inline-block;
-    position: relative;
-    border-radius: 12px;
-    overflow: hidden;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    color: #fff;
-    transition: transform 0.2s;
-  }
-
-  .bg-wrapper {
-    position: relative;
-    width: 100%;
-    display: block;
-  }
-
-  .project img.bg {
-    width: 100%;
-    height: auto;
-    display: block;
-    filter: blur(4px) brightness(0.5);
-  }
-
-  .content {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    z-index: 1;
-    text-align: center;
-    backdrop-filter: blur(0.5px);
-  }
-
-  .emoji {
-    font-size: 40px;
-    margin-bottom: 10px;
-  }
-
-  .title {
-    font-weight: bold;
-    font-size: 18px;
-  }
-
-  .desc {
-    color: #ccc;
-    font-size: 14px;
-    margin-top: 8px;
-  }
-</style>
-
-<div class="map">
-  <div class="project">
-    <div class="bg-wrapper">
-      <img class="bg" src="Screenshots/ascii-art.png" alt="ascii-art">
+<body>
+  <div class="map">
+    <div class="project" data-repo="groupie-tracker">
+      <div class="bg-wrapper">
+        <img class="bg" src="Screenshots/groupie-tracker.png">
+      </div>
+      <div class="content">
+        <div class="title">groupie-tracker</div>
+        <div class="desc">A simple web app to track music groups and members.</div>
+        <label style="margin-top: 5%; margin-bottom: 3%;">Languages</label>
+        <div class="languages"></div>
+      </div>
     </div>
-    <div class="content">
-      <div class="emoji">🎨</div>
-      <div class="title">ascii-art</div>
-      <div class="desc">A simple CLI app to turn text into ASCII art.</div>
-    </div>
-  </div>
 
-  <div class="project">
-    <div class="bg-wrapper">
-      <img class="bg" src="Screenshots/groupie-tracker.png" alt="groupie-tracker">
+    <div class="project" data-repo="atm-system">
+      <div class="bg-wrapper">
+        <img class="bg" src="Screenshots/atm-system.png">
+      </div>
+      <div class="content">
+        <div class="title">atm-system</div>
+        <div class="desc">An atm simulation system made entirely in C</div>
+        <label style="margin-top: 5%; margin-bottom: 3%;">Languages</label>
+        <div class="languages"></div>
+      </div>
     </div>
-    <div class="content">
-      <div class="emoji">🎶</div>
-      <div class="title">groupie-tracker</div>
-      <div class="desc">A simple web app to track music groups and members.</div>
-    </div>
-  </div>
-</div>
+</body>
