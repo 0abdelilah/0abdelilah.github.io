@@ -1,11 +1,11 @@
 
-const colors = {
-    HTML: '#e34c26',
-    CSS: '#563d7c',
-    JavaScript: '#f1e05a',
-    Go: '#00add8',
-};
 async function displayLanguages(projectEl) {
+    const colors = {
+        HTML: '#e34c26',
+        CSS: '#563d7c',
+        JavaScript: '#f1e05a',
+        Go: '#00add8',
+    };
     const repo = projectEl.dataset.repo;
     const resp = await fetch(`https://api.github.com/repos/0abdelilah/${repo}/languages`);
     const languages = await resp.json();

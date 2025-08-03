@@ -1,31 +1,29 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: #0e0d11;
-    padding: 40px;
-    text-align: center;
+    background-color: black;
 }
 
-h1 {
-    color: #f8f8f2;
-    font-size: 36px;
-    margin-bottom: 20px;
+.bottom {
+    background: #0d0d11;
 }
 
 .map {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
     gap: 20px;
-    margin-top: 40px;
+    max-width: 1500px;
+    /* 4 * 300px */
+    margin-left: 10%;
 }
 
 .project {
+    margin-top: 10%;
     max-height: 80%;
     max-width: 80%;
     display: inline-block;
     position: relative;
     border-radius: 12px;
     overflow: hidden;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     color: #fff;
     transition: transform 0.2s;
 }
@@ -46,10 +44,23 @@ h1 {
 
 .project:hover img.bg {
     filter: blur(0) brightness(0.5);
-    color: transparent;
 }
 
-.project:hover {
+.project:hover .title {
+    transform: translateY(-55px);
+}
+
+.project:hover p {
+    color: grey;
+    font-size: 14px;
+    transform: translateY(-145px);
+}
+
+.project:hover .desc,
+.project:hover label,
+.project:hover .languages,
+.project:hover .language,
+.project:hover .percent {
     color: transparent;
 }
 
@@ -71,6 +82,7 @@ h1 {
 .title {
     font-weight: bold;
     font-size: 18px;
+    transition: transform 0.3s;
 }
 
 .desc {
@@ -106,4 +118,8 @@ h1 {
 .percent {
     color: #aaa;
     margin-left: 4px;
+}
+
+.clickable-text {
+    color: white;
 }
