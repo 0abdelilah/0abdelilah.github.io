@@ -1,0 +1,171 @@
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <title>Abdelilah - Me</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(135deg, #f5f7fa, #e1e8f3);
+            min-height: 100vh;
+            margin: 0;
+            padding: 1rem;
+        }
+
+        .container {
+            max-width: 600px;
+            width: 100%;
+            background: rgba(255, 255, 255, 0.98);
+            padding: 2rem;
+            border-radius: 16px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            color: #333;
+        }
+
+        h5 {
+            display: flex;
+            align-items: center;
+            font-weight: 600;
+            font-size: 1rem;
+            color: #555;
+            margin: 1rem 0 0.5rem 0;
+        }
+
+        h5 svg {
+            margin-right: 0.5rem;
+            color: #000000;
+        }
+
+        .technologies {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            justify-content: center;
+            margin-bottom: 1rem;
+        }
+
+        .technologies img {
+            height: 30px;
+            margin: 2px;
+        }
+
+        .bitmoji_me img {
+            width: 100px;
+            height: auto;
+            margin-bottom: 1rem;
+        }
+
+        @media (max-width: 480px) {
+            .bitmoji_me img {
+                width: 80px;
+            }
+
+            h1 {
+                font-size: 1.5rem;
+            }
+
+            h5 {
+                font-size: 0.9rem;
+            }
+
+            .technologies img {
+                height: 25px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="bitmoji_me">
+            <img src="./images/memoji.png" alt="Bitmoji">
+        </div>
+        <h1>Skills & Experience</h1>
+        <h5><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="lucide lucide-code h-5 w-5">
+                <polyline points="16 18 22 12 16 6"></polyline>
+                <polyline points="8 6 2 12 8 18"></polyline>
+            </svg>Frontend development
+        </h5>
+        <div class="technologies">
+            <!-- JavaScript -->
+            <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"
+                alt="JavaScript">
+
+            <!-- HTML5 -->
+            <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"
+                alt="HTML5">
+
+            <!-- CSS3 -->
+            <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"
+                alt="CSS3">
+        </div>
+
+        <h5>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="lucide lucide-cpu h-5 w-5">
+                <rect width="16" height="16" x="4" y="4" rx="2"></rect>
+                <rect width="6" height="6" x="9" y="9" rx="1"></rect>
+                <path d="M15 2v2"></path>
+                <path d="M15 20v2"></path>
+                <path d="M2 15h2"></path>
+                <path d="M2 9h2"></path>
+                <path d="M20 15h2"></path>
+                <path d="M20 9h2"></path>
+                <path d="M9 2v2"></path>
+                <path d="M9 20v2"></path>
+            </svg> Backend & systems
+        </h5>
+        <div class="technologies">
+            <!-- Node.js -->
+            <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white"
+                alt="Node.js">
+
+            <!-- Go -->
+            <img src="https://img.shields.io/badge/Golang-00ADD8?style=for-the-badge&logo=go&logoColor=white"
+                alt="Golang">
+
+            <!-- SQL -->
+            <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white"
+                alt="SQL">
+
+            <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" alt="C">
+
+        </div>
+
+
+        <h5>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="lucide lucide-users h-5 w-5">
+                <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
+                <circle cx="9" cy="7" r="4"></circle>
+                <path d="M22 21v-2a4 4 0 0 0-3-3.87"></path>
+                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+            </svg> Soft Skills
+        </h5>
+        <div class="technologies">
+            <!-- Communication -->
+            <img src="https://img.shields.io/badge/Communication-4CAF50?style=for-the-badge&logo=appveyor&logoColor=white"
+                alt="Communication">
+
+            <!-- Problem-Solving -->
+            <img src="https://img.shields.io/badge/Problem--Solving-2196F3?style=for-the-badge&logo=appveyor&logoColor=white"
+                alt="Problem-Solving">
+
+            <!-- Teamwork -->
+            <img src="https://img.shields.io/badge/Teamwork-00BCD4?style=for-the-badge&logo=appveyor&logoColor=white"
+                alt="Teamwork">
+
+        </div>
+</body>

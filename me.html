@@ -10,15 +10,13 @@
             align-items: center;
             background: linear-gradient(135deg, #f5f7fa, #e1e8f3);
             min-height: 100vh;
-            margin: 0;
+            margin: 0%;
             padding: 1rem;
         }
 
         .container {
             max-width: 500px;
-            /* don’t stretch too wide */
             width: 100%;
-            /* fit smaller screens */
             text-align: center;
             background: rgba(255, 255, 255, 0.95);
             padding: 1.5rem;
@@ -63,6 +61,7 @@
 
         /* 📱 Mobile tweaks */
         @media (max-width: 480px) {
+
             .bitmoji_me img {
                 width: 80px;
             }
@@ -73,6 +72,12 @@
 
             .whoami pre {
                 font-size: 0.85rem;
+            }
+        }
+
+        @media (min-width: 1024px) {
+            body {
+                margin: 3%;
             }
         }
     </style>
@@ -100,11 +105,11 @@ I’m passionate about coding, cybersecurity, entrepreneurship, and SaaS.
 
 </pre>
 
-                <h3>Hobbies</h3>
-                <pre>
+            <h3>Hobbies</h3>
+            <pre>
 Outside of tech, I love swimming—I’ve even completed a 2 km swim non-stop :)
 </pre>
-                <img style="width: 100%; border-radius: 16px;" src="./images/swam.png">
-            </div>
+            <img style="width: 100%; border-radius: 16px;" src="./images/swam.png">
         </div>
+    </div>
 </body>
