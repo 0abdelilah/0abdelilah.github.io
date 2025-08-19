@@ -1,6 +1,11 @@
 Hey 👋
 
-I'm Abdelilah, a 20-year-old full-stack coding student at 01Talents Morocco. Before diving into coding at 01Talents, I was a Cybersecurity researcher which lead to me finding some serious vulnerabilities, but now I'm all about coding and innovation! 🚀
+I'm Abdelilah, a 19-year-old full-stack coding student at 01Talents Morocco.
+Before diving into coding, I was a security researcher at Intigriti, where i found and reported serious web app vulnerabilities which sharpened my cybersecurity skills.
 
+Now, I’m focused on building cool projects and solving real-world problems 🚀.
 
-I'm really passionate about about Coding, Cybersecurity, Entrepreneurship and SaaS
+I’m passionate about coding, cybersecurity, entrepreneurship, and SaaS.
+
+Hobbies
+Outside of tech, I love swimming—I’ve even completed a 2 km swim non-stop :)
