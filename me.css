@@ -1,0 +1,76 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #f5f7fa, #e1e8f3);
+    min-height: 100vh;
+    margin: 0%;
+    padding: 1rem;
+}
+
+.container {
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.95);
+    padding: 1.5rem;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.bitmoji_me img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    font-size: 1.6rem;
+    margin: 0.5rem 0;
+    color: #333;
+}
+
+h3 {
+    text-align: left;
+}
+
+.location h5 {
+    font-weight: 600;
+    color: #555;
+    margin-top: -2%;
+    font-size: 0.9rem;
+}
+
+.whoami pre {
+    white-space: pre-wrap;
+    /* wrap text instead of overflowing */
+    text-align: left;
+    /* better readability */
+    font-family: inherit;
+    /* use page font */
+    font-size: 0.9rem;
+    line-height: 1.4;
+    color: #444;
+}
+
+/* 📱 Mobile tweaks */
+@media (max-width: 480px) {
+
+    .bitmoji_me img {
+        width: 80px;
+    }
+
+    h1 {
+        font-size: 1.3rem;
+    }
+
+    .whoami pre {
+        font-size: 0.85rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    body {
+        margin: 3%;
+    }
+}

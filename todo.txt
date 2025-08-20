@@ -1,3 +1,2 @@
 use svg instead of emojis
 add navigation buttons at each page
-make projects clickable -> github repo
