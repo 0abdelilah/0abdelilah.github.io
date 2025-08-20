@@ -32,7 +32,7 @@ body {
 
 button {
     padding: 1rem 2rem;
-    min-width: 200px;
+    min-width: 12.5rem;
     font-size: 1.89rem;
     border: 2px solid #ccc;
     border-radius: 0.5rem;
@@ -102,7 +102,7 @@ button:hover {
 
     button {
         padding: 0.5rem 1.2rem;
-        min-width: 170px;
+        min-width: 10.625rem;
         font-size: 1.39rem;
     }
 
@@ -130,7 +130,7 @@ button:hover {
 }
 
 .technologies img {
-    height: 30px;
+    height: 1.875rem;
     transition: transform 0.2s ease;
 }
 
