@@ -1,8 +1,6 @@
 body {
     background-color: #f0f2f5;
-    /* soft light gray */
     color: #333;
-    /* dark text for readability */
     font-family: 'Helvetica', Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -62,12 +60,20 @@ button:hover {
 
 .project-description {
     width: 100%;
-    padding: 1rem;
-    background: rgba(0, 0, 0, 0.5);
+    padding: 2rem;
+    background: #111827ee;
     color: white;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
     text-align: center;
+}
+
+
+.project-description p {
+    font-family: 'Inter', 'Roboto', sans-serif;
+    font-size: 1.2rem; 
+    line-height: 1.4;
+    font-weight: 500;
 }
 
 .project:hover {
@@ -183,3 +189,4 @@ button:hover {
 .technologies img:hover {
     transform: scale(1.1);
 }
+
